@@ -1,0 +1,23 @@
+1. Init <filename string>
+	create directory for file with local input.txt, output.txt, brickfile.js, brickroot.txt, main.txt
+
+2. add <string> <file> [env]
+   flags
+     -l local
+     -g global
+
+3. run <file> (input.txt by default)
+   make sure this creates backup esp for main.txt
+
+4. glue <file> <file2> -n (merge w or w/o newline)
+   put two files together
+
+5. library <env>
+
+6. lib-filter (for deploy or share or save)
+
+7. read <string>
+   -l list available libraries
+   return filepath for brickstring
+
+8. push <string for local brick, send to global> <env>
