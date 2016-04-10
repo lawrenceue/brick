@@ -21,3 +21,12 @@
    return filepath for brickstring
 
 8. push <string for local brick, send to global> <env>
+
+9. zip <file 1> <file 2>
+  --brick compiles two files and then zips line by line with space in between or other character
+
+10. push
+   --push file up a directory
+
+11. open <brick>
+   --open file that correlates to brick
