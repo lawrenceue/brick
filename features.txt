@@ -5,6 +5,7 @@
    flags
      -l local
      -g global
+2a. new <string> <file>
 
 3. run <file> (input.txt by default)
    make sure this creates backup esp for main.txt
